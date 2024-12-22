@@ -3,24 +3,19 @@ import "./App.css";
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<img
-					src={logo}
-					className="App-logo"
-					alt="logo"
-				/>
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
+			<div className="container">
+				<header className="App-header"></header>
+
+				<footer>
+					{" "}
+					This website was coded by <a href=""> Angela Mugabe </a>, is{" "}
+					<a href="https://github.com/anglmugabe/minideictionary-react">
+						open-sourced{" "}
+					</a>
+					, and hosted on{" "}
+					<a href="https://minidicionarioreact.netlify.app/">Netlify </a>
+				</footer>
+			</div>
 		</div>
 	);
 }
